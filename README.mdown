@@ -6,6 +6,9 @@
     $("<div class='icon-32 icon-loading disabled'/>").removeClass(/^icon-/)
     // <div class='disabled'/>
 
-[Origins](https://github.com/jquery/jquery/pull/212).
+
+[Tests](http://nv.github.com/jquery-regexp-classes/test)
+
+[Origins](https://github.com/jquery/jquery/pull/212)
 
 License: MIT.
