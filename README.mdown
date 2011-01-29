@@ -1,0 +1,11 @@
+# jQuery’s hasClass and removeClass on steroids
+
+    $("<div class='state-loading icon-32'/>").hasClass(/-loading$/)
+    // true
+
+    $("<div class='icon-32 icon-loading disabled'/>").removeClass(/^icon-/)
+    // <div class='disabled'/>
+
+[Origins](https://github.com/jquery/jquery/pull/212).
+
+License: MIT.
