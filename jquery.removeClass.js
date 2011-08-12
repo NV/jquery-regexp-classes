@@ -18,6 +18,7 @@
 		} else {
 			removeClass.call(this, value);
 		}
+                return this;
 	}
 
 })(jQuery.fn.removeClass);
