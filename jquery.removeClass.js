@@ -16,7 +16,7 @@
 				}
 			}
 		} else {
-			removeClass.call(this, value);
+			removeClass.apply(this, Array.prototype.slice.apply(arguments));
 		}
 		return this;
 	}

@@ -41,3 +41,9 @@ test("string", function() {
 	elem.removeClass("disabled state-open");
 	equal(elem[0].className, "");
 });
+
+test("empty params", function() {
+	var elem = jQuery("<div class='state-open state-loading disabled'/>");
+	elem.removeClass();
+	equal(elem[0].className, "");
+});
